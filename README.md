@@ -1,12 +1,8 @@
-# gatsby-starter-dimension-v2
+# Mickell Crawford Portfolio
 
 **This is a starter for Gatsby.js V2.**
 
-**The older V1 version of this starter can be found at:**
-<br/>
-**https://github.com/ChangoMan/gatsby-starter-dimension**
-
-Gatsby.js V2 starter based on the Dimension site template, designed by HTML5 UP. Check out https://codebushi.com/gatsby-starters/ for more Gatsby starters and templates.
+This site used Gatsby.js V2 starter Dimension template, designed by HTML5 UP.
 
 ## Preview
 
