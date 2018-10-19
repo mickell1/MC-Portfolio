@@ -48,15 +48,16 @@
 		}
 
 		.logo {
-			width: 5.5rem;
-			height: 5.5rem;
-			line-height: 5.5rem;
+			width: 10.5em;
+			height: 10.5em;
+			line-height: 5.5em;
 			border: solid _size(border-width) _palette(border);
 			border-radius: 100%;
+			background: url(../../images/mc.jpg);
 
 			.icon {
 				&:before {
-					font-size: 2rem;
+					font-size: 2em;
 				}
 			}
 		}
