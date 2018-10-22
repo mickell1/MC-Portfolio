@@ -2,7 +2,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import pic01 from '../images/lake_moraine.jpg'
+import lake from '../images/lake_moraine.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -16,7 +16,7 @@ class Main extends React.Component {
 
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Introduction</h2>
-          <span className="image main"><img src={pic01} alt="" /></span>
+          <span className="image main"><img src={lake} alt="" /></span>
           <p>
             I started my career as an IT apprentice where I learned the basics of IT and gained some professional qualifications. These consisted of the following:
           </p>
@@ -24,7 +24,7 @@ class Main extends React.Component {
             <li>Windows 7 configuration (Microsoft Certified, MCTS)</li>
             <li>CompTIA A+ IT Technician</li>
             <li>Windows Operating Systems(Microsoft Certified)</li>
-            <li>Networking Fundamentals(Microsoft Certified)  Diploma in ICT Professional Competence (Distinction)</li>
+            <li>Networking Fundamentals(Microsoft Certified) Diploma in ICT Professional Competence (Distinction)</li>
             <li>Diploma in ICT Systems & Principles (Distinction)</li>
           </ul>
           <p>
@@ -48,10 +48,27 @@ class Main extends React.Component {
           {close}
         </article>
 
+        <article id="qualifications" className={`${this.props.article === 'qualifications' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Qualifications</h2>
+          <span className="image main"><img src={pic02} alt="" /></span>
+          <p>Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.</p>
+          {close}
+        </article>
+
+
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent urna nisi, fringila lorem et vehicula lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices. Aliquam libero et malesuada fames ac ante ipsum primis in faucibus. Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit amet.</p>
+          <p>
+          I Am an Associate developer with full-stack experience. Strong knowledge of agile practices and principles and I am Professional Scrum Master 1 certified. 5 years experience working in the IT industry this includes: tech support, field engineer, finance, legacy systems  and software development.
+          Below is a list of the social aspects I like to do outside of work.
+          </p>
+          <ul>
+            <li>I play for 2 football teams and play 3 times a week, I also enjoy watching football </li>
+            <li>Currently learning to play the Piano</li>
+            <li>I play the drums and occasionally sing</li>
+            <li>I like sports, music, activities, socialising, travelling and food!</li>
+          </ul>
           {close}
         </article>
 
