@@ -59,8 +59,7 @@ class Main extends React.Component {
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
           <p>
-          I Am an Associate developer with full-stack experience. Strong knowledge of agile practices and principles and I am Professional Scrum Master 1 certified. 5 years experience working in the IT industry this includes: tech support, field engineer, finance, legacy systems  and software development.
-          Below is some of the social events I like to do outside of work.
+          Experienced full-stack developer. Strong knowledge of agile practices and principles and is PSM1 certified. 5 years experience working in the IT industry this includes: tech support, field engineer, finance, legacy systems and software development.
           </p>
           <h4>FOOTBALL</h4>
           <p>I currently play for Luton Allstarts FC & Nomura FC I play 3 times a week, I also enjoy watching football.</p>
