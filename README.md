@@ -15,5 +15,14 @@ If Gatsby is not already installed run the command below:
 npm install gatsby
 ```
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-Run `gatsby develop` in the terminal to start the dev site.
+After installing Gatsby run a npm install
+```
+npm install or npm i
+```
+
+Run the Gatsby build command below:
+```
+npm run build
+```
+
+Run `npm run start` to run the dev site.

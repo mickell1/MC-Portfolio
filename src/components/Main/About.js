@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
-import pic03 from '../images/pic03.jpg'
+import pic03 from '../../images/pic03.jpg'
 
 class About extends React.Component {
   render() {
