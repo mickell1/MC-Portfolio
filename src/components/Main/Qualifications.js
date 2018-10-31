@@ -15,11 +15,11 @@ class Qualifications extends React.Component {
         <h4>BIRKBECK UNIVERSITY OF LONDON [2014 - 2017]</h4>
         <p>BSc Computing (Computer Science): 2.2</p>
 
-        <h4 className="qualsTitle">MICROSOFT IT ACADEMY [2014 - 2014]</h4>
-        <p className="qualsList">Active Directory (Microsoft Certified, MCSA)</p>
-        <p className="qualsList">Microsoft Exchange 2010 (Microsoft Certified, MCITP)</p>
+        <h4>MICROSOFT IT ACADEMY [2014 - 2014]</h4>
+        <p>Active Directory (Microsoft Certified, MCSA)</p>
+        <p>Microsoft Exchange 2010 (Microsoft Certified, MCITP)</p>
 
-        <h4 className="qualsTitle">PEARSON’S (ADVANCED APPRENTICESHIP FOR IT & TELECOMS PROFESSIONALS)[2011 - 2011]</h4>
+        <h4>PEARSON’S (ADVANCED APPRENTICESHIP FOR IT & TELECOMS PROFESSIONALS)[2011 - 2011]</h4>
         <p>Windows Operating Systems (Microsoft Certified, MTA)</p>
         <p>Networking Fundamentals (Microsoft Certified, MTA)</p>
         <p>CompTIA A+ IT Technician</p>
