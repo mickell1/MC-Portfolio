@@ -98,6 +98,16 @@
 				margin: 0;
 			}
 
+			&#work p {
+				margin: 0;
+				font-style: italic;
+				text-decoration: underline;
+			}
+
+			&#work li {
+				list-style: square;
+			}
+
 		}
 
 		@include breakpoint(small) {
