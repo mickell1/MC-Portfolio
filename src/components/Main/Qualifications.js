@@ -10,7 +10,7 @@ class Qualifications extends React.Component {
 
     return (
       <article id="qualifications" className={`${this.props.article === 'qualifications' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-        <h2 className="major">Qualifications</h2>
+        <h2 className="heading">Qualifications</h2>
         <span className="image main"><img src={quals} alt="" /></span>
         <h4>BIRKBECK UNIVERSITY OF LONDON [2014 - 2017]</h4>
         <p>BSc Computing (Computer Science): 2.2</p>

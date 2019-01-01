@@ -10,7 +10,7 @@ class Introduction extends React.Component {
 
     return (
       <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-        <h2 className="major">Introduction</h2>
+        <h2 className="heading">Introduction</h2>
         <span className="image main"><img src={lake} alt="" /></span>
         <p>
           I started my career as an IT apprentice where I learned the basics of IT and gained some professional qualifications. These consisted of the following:

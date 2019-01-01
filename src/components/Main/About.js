@@ -10,7 +10,7 @@ class About extends React.Component {
 
     return (
       <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-        <h2 className="major">About</h2>
+        <h2 className="aboutTitle">About</h2>
         <span className="image main"><img src={mcdrums} alt="" /></span>
         <p>
           Experienced full-stack developer. Strong knowledge of agile practices and principles and is PSM1 certified. 5 years experience working in the IT industry this includes: tech support, field engineer, finance, legacy systems and software development.

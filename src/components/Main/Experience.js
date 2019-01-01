@@ -10,7 +10,7 @@ class Experience extends React.Component {
 
     return (
       <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-        <h2 className="major">Work Experience</h2>
+        <h2 className="heading">Work Experience</h2>
         <span className="image main"><img src={workExp} alt="" /></span>
         <h4>AND DIGITAL [2017 - NOW]</h4>
         <p>Key Responsibilities</p>
@@ -23,7 +23,7 @@ class Experience extends React.Component {
           <li>External Clients: Konsentus (Fintech / Open Banking)</li> 
           <li>Techstack: AWS, React, JavaScript, HTML, Node, Docker, & Mongo DB</li>
         </ul>
-        
+
         <p>Key Achievements</p>
         <ul>
           <li>Joined AND Digital and became professional scrum master certified, since achieving this certification I have been scrum master/developer for our development team.</li>
