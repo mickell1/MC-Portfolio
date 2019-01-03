@@ -21,17 +21,21 @@
     "build": "gatsby build",
     "start": "gatsby develop",
     "format": "prettier --write '**/*.js'",
-    "test": "jest"
+    "test": "jest",
+    "cy:open": "cypress open",
+    "test:e2e": "start-server-and-test start http://localhost:8000 cy:open"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
     "babel-preset-gatsby": "^0.1.6",
+    "cypress": "^3.1.4",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^23.6.0",
     "prettier": "^1.14.2",
-    "react-test-renderer": "^16.7.0"
+    "react-test-renderer": "^16.7.0",
+    "start-server-and-test": "^1.7.11"
   },
   "repository": {
     "type": "git",
