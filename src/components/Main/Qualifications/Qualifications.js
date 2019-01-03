@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
-import quals from '../../images/quals.jpeg'
+import quals from '../../../images/quals.jpeg'
 
 class Qualifications extends React.Component {
   render() {

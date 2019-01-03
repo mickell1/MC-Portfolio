@@ -1,11 +1,11 @@
 /* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
-import Introduction from './Introduction'
-import Experience from './Experience'
-import Qualifications from './Qualifications'
-import About from './About'
-import Contact from './Contact'
+import Introduction from './Introduction/Introduction'
+import Experience from './Experience/Experience'
+import Qualifications from './Qualifications/Qualifications'
+import About from './About/About'
+import Contact from './Contact/Contact'
 
 class Main extends React.Component {
   render() {

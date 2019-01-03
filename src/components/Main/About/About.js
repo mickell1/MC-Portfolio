@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
-import mcdrums from '../../images/mcdrums.jpg'
+import mcdrums from '../../../images/mcdrums.jpg'
 
 class About extends React.Component {
   render() {

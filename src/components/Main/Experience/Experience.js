@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
-import workExp from '../../images/experience.jpeg'
+import workExp from '../../../images/experience.jpeg'
 
 class Experience extends React.Component {
   render() {

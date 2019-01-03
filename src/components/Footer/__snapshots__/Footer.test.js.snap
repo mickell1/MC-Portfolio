@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  id="footer"
+  style={Object {}}
+>
+  <p
+    className="copyright"
+  >
+    © Gatsby Starter - MC Portfolio. Built with Gatsby.js 
+    <a
+      href="https://www.linkedin.com/in/mickcraw"
+    >
+      <span
+        className="fa fa-linkedin"
+      />
+    </a>
+  </p>
+</footer>
+`;

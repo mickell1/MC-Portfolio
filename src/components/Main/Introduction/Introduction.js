@@ -1,7 +1,7 @@
 /* eslint-disable */
 import React from 'react'
 import PropTypes from 'prop-types'
-import lake from '../../images/lake_moraine.jpg'
+import lake from '../../../images/lake_moraine.jpg'
 
 class Introduction extends React.Component {
   render() {
