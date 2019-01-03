@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header
+  id="header"
+  style={Object {}}
+>
+  <div
+    className="logo"
+  />
+  <div
+    className="content"
+  >
+    <div
+      className="inner"
+    >
+      <h1>
+        Mickell Crawford
+      </h1>
+      <p>
+        I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
+      </p>
+    </div>
+  </div>
+  <nav>
+    <ul>
+      <li>
+        <a
+          href="javascript:;"
+          onClick={[Function]}
+        >
+          Introduction
+        </a>
+      </li>
+      <li>
+        <a
+          href="javascript:;"
+          onClick={[Function]}
+        >
+          Work Experience
+        </a>
+      </li>
+      <li>
+        <a
+          href="javascript:;"
+          onClick={[Function]}
+        >
+          Qualifications
+        </a>
+      </li>
+      <li>
+        <a
+          href="javascript:;"
+          onClick={[Function]}
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          href="javascript:;"
+          onClick={[Function]}
+        >
+          Contact
+        </a>
+      </li>
+    </ul>
+  </nav>
+</header>
+`;
