@@ -12,5 +12,6 @@ module.exports = {
     "__PATH_PREFIX__": ""
   },
   "testURL": "http://localhost:8000",
-  "setupFiles": ["<rootDir>/loadershim.js"]
+  "setupFiles": ["<rootDir>/loadershim.js"],
+   setupTestFrameworkScriptFile: "<rootDir>/setup-test-env.js",
 }

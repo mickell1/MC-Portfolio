@@ -12,16 +12,37 @@ class Experience extends React.Component {
       <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
         <h2 className="heading">Work Experience</h2>
         <span className="image main"><img src={workExp} alt="" /></span>
-        <h4>AND DIGITAL [2017 - NOW]</h4>
+
+        <h4>SECRET ESCAPES [2019 - NOW]</h4>
+        <p>Key Responsibilities</p>
+        <ul>
+          <li>Frontend engineer, Agile working, built various new and reusable components in component library</li>
+
+
+          <li>Built two types of grids that displayed holiday sales and was shown on the homepage</li>
+          <li>Implemented code review template and guidelines to improve development process</li>
+          <li>Techstack: React, Typescript JavaScript, HTML, GraphQL, Styled Components, TDD, Jest, React testing library, Storybook, SCSS</li>
+        </ul>
+
+        <p>Key Achievements</p>
+        <ul>
+          <li>Implemented new code review cycle for all tech teams</li>
+          <li>Conducted analysis using Google rail technique which led to performance improvements on the webiste</li>
+        </ul>
+
+        <h4>AND DIGITAL [2017 - 2019]</h4>
         <p>Key Responsibilities</p>
         <ul>
           <li>Full-stack Javascript Engineer & Consultant, use Agile methods to help build digital products, teams and systems.</li>
+          <li>Created new reusable React components which was used across development team</li>
+          <li>Implemented styling using SCSS & CSS and suggested more user friendly features</li>
+          <li>Build web application to manage employees; add/edit employees, search functionality, API calls to get required data</li>
           <li>build out monolith application; microservices, updating microservice template & skeleton.</li>
           <li>Back end development for PSD2 and Open Banking product that enables consent management and compliance</li>
           <li>integrated various new web functionality such as filtering status, course list, creation of course form and styling.</li>
           <li>Built web dashboard containing profiles detailing individual’s skills and experience.</li>
-          <li>External Clients: Konsentus (Fintech / Open Banking)</li> 
-          <li>Techstack: AWS, React, JavaScript, HTML, Node, Docker, & Mongo DB</li>
+          <li>External Clients: Premier Inn (Whitbread / Hospitality), Konsentus (Fintech / Open Banking), ANDDigital (Digital consultancy)</li> 
+          <li>Techstack: React, JavaScript, Typescript, HTML, CSS, SaSS, Node, Docker, AWS, TDD, Storybook, Jest, React testing library & Mongo DB</li>
         </ul>
 
         <p>Key Achievements</p>

@@ -1,70 +1,821 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Header renders correctly 1`] = `
-<header
-  id="header"
-  style={Object {}}
->
-  <div
-    className="logo"
-  />
-  <div
-    className="content"
-  >
-    <div
-      className="inner"
-    >
-      <h1>
-        Mickell Crawford
-      </h1>
-      <p>
-        I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
-      </p>
-    </div>
-  </div>
-  <nav>
-    <ul>
-      <li>
-        <a
-          href="javascript:;"
-          onClick={[Function]}
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <div
+          className="logo"
+        />,
+        <div
+          className="content"
         >
-          Introduction
-        </a>
-      </li>
-      <li>
-        <a
-          href="javascript:;"
-          onClick={[Function]}
-        >
-          Work Experience
-        </a>
-      </li>
-      <li>
-        <a
-          href="javascript:;"
-          onClick={[Function]}
-        >
-          Qualifications
-        </a>
-      </li>
-      <li>
-        <a
-          href="javascript:;"
-          onClick={[Function]}
-        >
-          About
-        </a>
-      </li>
-      <li>
-        <a
-          href="javascript:;"
-          onClick={[Function]}
-        >
-          Contact
-        </a>
-      </li>
-    </ul>
-  </nav>
-</header>
+          <div
+            className="inner"
+          >
+            <h1>
+              Mickell Crawford
+            </h1>
+            <p>
+              I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
+            </p>
+          </div>
+        </div>,
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Introduction
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Work Experience
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Qualifications
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Contact
+              </a>
+            </li>
+          </ul>
+        </nav>,
+      ],
+      "id": "header",
+      "style": Object {},
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "className": "logo",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <div
+            className="inner"
+          >
+            <h1>
+              Mickell Crawford
+            </h1>
+            <p>
+              I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
+            </p>
+          </div>,
+          "className": "content",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <h1>
+                Mickell Crawford
+              </h1>,
+              <p>
+                I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
+              </p>,
+            ],
+            "className": "inner",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Mickell Crawford",
+              },
+              "ref": null,
+              "rendered": "Mickell Crawford",
+              "type": "h1",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below",
+              },
+              "ref": null,
+              "rendered": "I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below",
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <ul>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Introduction
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Work Experience
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Qualifications
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                href="javascript:;"
+                onClick={[Function]}
+              >
+                Contact
+              </a>
+            </li>
+          </ul>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Introduction
+                </a>
+              </li>,
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Work Experience
+                </a>
+              </li>,
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Qualifications
+                </a>
+              </li>,
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  About
+                </a>
+              </li>,
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Introduction
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Introduction",
+                  "href": "javascript:;",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Introduction",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Work Experience
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Work Experience",
+                  "href": "javascript:;",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Work Experience",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Qualifications
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Qualifications",
+                  "href": "javascript:;",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Qualifications",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  About
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "About",
+                  "href": "javascript:;",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "About",
+                "type": "a",
+              },
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Contact",
+                  "href": "javascript:;",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": "Contact",
+                "type": "a",
+              },
+              "type": "li",
+            },
+          ],
+          "type": "ul",
+        },
+        "type": "nav",
+      },
+    ],
+    "type": "header",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <div
+            className="logo"
+          />,
+          <div
+            className="content"
+          >
+            <div
+              className="inner"
+            >
+              <h1>
+                Mickell Crawford
+              </h1>
+              <p>
+                I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
+              </p>
+            </div>
+          </div>,
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Introduction
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Work Experience
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Qualifications
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </nav>,
+        ],
+        "id": "header",
+        "style": Object {},
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "className": "logo",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <div
+              className="inner"
+            >
+              <h1>
+                Mickell Crawford
+              </h1>
+              <p>
+                I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
+              </p>
+            </div>,
+            "className": "content",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <h1>
+                  Mickell Crawford
+                </h1>,
+                <p>
+                  I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below
+                </p>,
+              ],
+              "className": "inner",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Mickell Crawford",
+                },
+                "ref": null,
+                "rendered": "Mickell Crawford",
+                "type": "h1",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below",
+                },
+                "ref": null,
+                "rendered": "I am full stack Javascript Engineer & Consultant. I use Agile methods to help build digital products, teams and systems. Find out more below",
+                "type": "p",
+              },
+            ],
+            "type": "div",
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <ul>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Introduction
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Work Experience
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Qualifications
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  About
+                </a>
+              </li>
+              <li>
+                <a
+                  href="javascript:;"
+                  onClick={[Function]}
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <li>
+                  <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Introduction
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Work Experience
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Qualifications
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    About
+                  </a>
+                </li>,
+                <li>
+                  <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Contact
+                  </a>
+                </li>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Introduction
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Introduction",
+                    "href": "javascript:;",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Introduction",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Work Experience
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Work Experience",
+                    "href": "javascript:;",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Work Experience",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Qualifications
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Qualifications",
+                    "href": "javascript:;",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Qualifications",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    About
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "About",
+                    "href": "javascript:;",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "About",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <a
+                    href="javascript:;"
+                    onClick={[Function]}
+                  >
+                    Contact
+                  </a>,
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Contact",
+                    "href": "javascript:;",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": "Contact",
+                  "type": "a",
+                },
+                "type": "li",
+              },
+            ],
+            "type": "ul",
+          },
+          "type": "nav",
+        },
+      ],
+      "type": "header",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
 `;
